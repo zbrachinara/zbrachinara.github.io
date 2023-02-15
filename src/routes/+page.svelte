@@ -1,10 +1,5 @@
 <script lang="ts">
-	import dayjs from 'dayjs';
-	import relativeTime from 'dayjs/plugin/relativeTime';
 	import kaguya_timer from '../components/kaguya_timer';
-
-	dayjs.extend(relativeTime);
-
 	let time_until_kaguya_sama: string = '';
 	let time_checker = () => {
 		time_until_kaguya_sama = kaguya_timer();
