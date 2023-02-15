@@ -23,6 +23,12 @@
 			<div class="flex flex-col">
 				<h1>Github</h1>
 				<p>Since 2020!</p>
+				<a href="https://wakatime.com/@d06087a9-1552-4763-b7f2-3957dcd1dd86"
+					><img
+						src="https://wakatime.com/badge/user/d06087a9-1552-4763-b7f2-3957dcd1dd86.svg"
+						alt="wakatime badge"
+					/></a
+				>
 			</div>
 			<div>
 				<h1>Youtube</h1>
