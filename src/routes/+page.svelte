@@ -12,8 +12,8 @@
 <div class="flex flex-col">
 	<div class="flex h-screen">
 		<div class="my-auto mx-auto text-center space-y-10">
-			<h1 class="font-extrabold text-4xl">Time until I go watch Kaguya sama movie</h1>
-			<p class="">{time_until_kaguya_sama}</p>
+			<h1 class="font-extrabold text-4xl">I watched Kaguya sama movie</h1>
+			<p class="">it was good</p>
 		</div>
 	</div>
 
