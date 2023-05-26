@@ -1,14 +1,3 @@
-<script lang="ts">
-	import kaguya_timer from '../components/kaguya_timer';
-	let time_until_kaguya_sama: string = '';
-	let time_checker = () => {
-		time_until_kaguya_sama = kaguya_timer();
-		setTimeout(time_checker, 100);
-	};
-
-	setTimeout(time_checker, 100);
-</script>
-
 <div class="flex flex-col">
 	<div class="flex h-screen">
 		<div class="my-auto mx-auto text-center space-y-10">
