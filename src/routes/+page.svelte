@@ -21,3 +21,13 @@
 		</div>
 	</div>
 </div>
+
+<div class="px-10 py-10">
+	<h1>Projects</h1>
+	<ul>
+		<li>l3x-ide</li>
+		<li>ccheckers</li>
+		<li>n2t-rs</li>
+		<li>quicksweeper</li>
+	</ul>
+</div>
