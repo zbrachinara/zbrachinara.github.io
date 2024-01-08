@@ -1,16 +1,31 @@
 <div class="flex flex-col">
 	<div class="flex h-screen">
 		<div class="my-auto mx-auto space-y-10 w-3/5 h-2/3">
-			<div class="bg-yellow-100 p-4 flex h-full">
+			<div class="bg-yellow-100 flex h-full">
 				<div class="flex-col w-1/6">
-					<div class="h-1/6">a</div>
-					<div class="h-1/3">a</div>
+					<div class="h-1/6 flex items-center">
+						<a href="https://wakatime.com/@d06087a9-1552-4763-b7f2-3957dcd1dd86"
+							><img
+								src="https://wakatime.com/badge/user/d06087a9-1552-4763-b7f2-3957dcd1dd86.svg"
+								alt="wakatime badge"
+							/></a
+						>
+					</div>
+					<div class="h-1/3 bg-white flex items-center ">
+						<a href="https://github.com/zbrachinara" class="flex justify-center">
+							<img
+								src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+								alt="Link to Github Profile"
+								class="w-1/2 h-1/2"
+							/>
+						</a>
+					</div>
 					<div class="h-1/2">a</div>
 				</div>
 				<div class="flex-col w-1/3">
 					<div class="h-1/6">a</div>
-					<div class="h-1/3 bg-yellow-200">
-						<h1 class="text-6xl font-bold">HI,I'M<br>ERIC</h1>
+					<div class="h-1/3 bg-yellow-200 p-4">
+						<h1 class="text-6xl font-bold font-mono">HI,I'M<br />ERIC</h1>
 					</div>
 					<div class="h-1/2">a</div>
 				</div>
