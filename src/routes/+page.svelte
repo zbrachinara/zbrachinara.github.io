@@ -48,17 +48,3 @@
 		<li>quicksweeper</li>
 	</ul>
 </div>
-
-<!-- <div class="flex flex-col">
-	<h1>Github</h1>
-	<a href="https://wakatime.com/@d06087a9-1552-4763-b7f2-3957dcd1dd86"
-		><img
-			src="https://wakatime.com/badge/user/d06087a9-1552-4763-b7f2-3957dcd1dd86.svg"
-			alt="wakatime badge"
-		/></a
-	>
-</div>
-<div>
-	<h1>Youtube</h1>
-	<a href="https://www.youtube.com/@zbrachi">Channel</a>
-</div> -->

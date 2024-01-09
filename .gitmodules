@@ -1,0 +1,3 @@
+[submodule "crates/l3x-ide"]
+	path = crates/l3x-ide
+	url = https://github.com/zbrachinara/l3x-ide
