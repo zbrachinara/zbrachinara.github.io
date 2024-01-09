@@ -1,3 +1,17 @@
+<script lang="ts">
+	function run_l3x(ev: Event) {
+		let target = ev.currentTarget;
+		if (target == null) {
+			console.log('Could not obtain the button pressed');
+			return;
+		}
+
+		(target as Element).outerHTML = `
+<canvas id="glcanvas" tabindex='1'></canvas>
+		`;
+	}
+</script>
+
 <div class="flex flex-col">
 	<div class="flex h-screen">
 		<div class="my-auto mx-auto space-y-10 w-3/5 h-2/3">
@@ -42,7 +56,9 @@
 <div class="px-10 py-10">
 	<h1>Projects</h1>
 	<ul>
-		<li>l3x-ide</li>
+		<li>
+			<button on:click={run_l3x}>L3X-IDE</button>
+		</li>
 		<li>ccheckers</li>
 		<li>n2t-rs</li>
 		<li>quicksweeper</li>
