@@ -1,5 +1,8 @@
 <script lang="ts">
-	function run_l3x(ev: Event) {
+	import wasm_init from '../lib/ccheckers.js' 
+	import {main_web} from '../lib/ccheckers.js'
+
+	async function run_ccheckers(ev: Event) {
 		let target = ev.currentTarget;
 		if (target == null) {
 			console.log('Could not obtain the button pressed');
@@ -9,6 +12,11 @@
 		(target as Element).outerHTML = `
 <canvas id="glcanvas" tabindex='1'></canvas>
 		`;
+
+		if (!import.meta.env.SSR) {
+			await wasm_init();
+			main_web();
+		}
 	}
 </script>
 
@@ -56,10 +64,10 @@
 <div class="px-10 py-10">
 	<h1>Projects</h1>
 	<ul>
+		<li>L3X-IDE</li>
 		<li>
-			<button on:click={run_l3x}>L3X-IDE</button>
+			<button on:click={run_ccheckers}>ccheckers</button>
 		</li>
-		<li>ccheckers</li>
 		<li>n2t-rs</li>
 		<li>quicksweeper</li>
 	</ul>
